@@ -1,0 +1,217 @@
+﻿body {      
+    color:#232323;      
+    font-family: 'Open Sans','helvetica','arial',sans-serif;
+    font-weight: 400;
+    position: relative;
+    background: #fff;
+    font-size:17px;
+    line-height:1.5em;
+}
+h4{
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+h1{
+  font-weight: bold;
+  font-size: 3.5em;
+  line-height: 1em;
+  margin-bottom: 30px;
+}
+h5{
+  font-size: 1em;
+  font-weight: 700;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+h5 small{
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+.left{
+  float:left;
+}
+.work{
+  padding-bottom: 60px;
+  margin-bottom:50px;
+  position: relative;
+}
+.work div{
+  max-width:960px;
+  width:100%;
+  margin:0 auto;
+  text-align: center;
+}
+.bd1{
+  width:200px;
+  position:absolute;
+  top:209px; 
+  z-index:3;
+  left:345px;
+}
+img{
+  max-width:960px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.work div.floating{
+  position: absolute;
+  width: 300px;
+}
+.sq1{
+  right:40px;
+  bottom: 230px;  
+}
+.sq2{
+  right:200px;
+  bottom: 120px;  
+  z-index: 10;
+}
+.q1{
+  right:100px;
+  bottom: 50px;  
+  z-index: 10;
+}
+.q1 img{
+  width:75%;
+}
+.work img.phone{
+  width:260px;
+  position:relative;
+  z-index:1;
+}
+.work img.phone.behind{
+  position: absolute;
+  top:70px;
+  left:45px;
+  z-index:0;
+  width:210px;
+}
+@media screen and (max-width:1199px){
+  .bd1 {
+      width: 150px;      
+      top: 209px;      
+      left: 274px;
+  }
+  .work div.floating.q1{
+      right: 5%;
+      bottom: 12%;  
+      z-index: 10;  
+      width: 33%;
+  }
+}
+@media screen and (max-width:991px){
+  .bd1 {
+      width: 120px;      
+      top: 175px;      
+      left: 210px;
+  }
+  .work div.floating{     
+    position: absolute;
+    width: 233px;
+  }
+  .sq1{
+    right: 0%;
+    bottom: 18%;  
+  }
+  .sq2{
+    right: 100px;
+    bottom: 10%;  
+    z-index: 10;
+  }
+  .work div.floating.q1{
+      right: 5%;
+      bottom: 12%;  
+      z-index: 10;  
+      width: 33%;
+  }
+  .q1 img{
+    width:75%;
+  }
+  .work img.phone{
+    width: 180px;
+    position:relative;
+    z-index:1;
+  }
+  .work img.phone.behind{
+    position: absolute;
+    top: 49px;
+    left: 42px;
+    z-index:0;
+    width: 150px;
+  }
+}
+@media screen and (max-width:678px){
+   .sq2{
+    right: 0;
+    bottom: 10%;  
+    z-index: 10;
+  }
+  .sq1{
+    display:none;
+  }
+}
+@media screen and (max-width:678px){
+  .bd1 {
+      width: 23%;      
+      top: 30.5%;      
+      left: 25.5%;
+  }
+    .work .floating.sq2{
+    right: 0%;
+    bottom: 19%;  
+    z-index: 10;
+    width: 70%;
+  }
+  .sq1{
+    display:none;
+  }
+  .work img.phone{
+      width: 35%;
+      position:relative;
+      z-index:1;
+      right: -17%;
+  }
+  .work img.phone.behind{
+      position: absolute;
+      top: 10.888%;
+      left: auto;
+      z-index:0;
+      width: 29%;  
+      right: 19%;
+  }
+  .work {
+      padding-bottom: 30px;
+      margin-bottom: 20px;
+      position: relative;
+  }
+}
+@media screen and (max-width:540px){
+  .bd1 {
+      width: 23%;      
+      top: 32%;      
+      left: 25.5%;
+  }
+   .sq2{
+    right: 0;
+    bottom: 15%;  
+    z-index: 10;
+    width:
+  }    
+}
+@media screen and (max-width:420px){
+  .bd1 {
+      width: 23%;      
+      top: 34%;      
+      left: 25.5%;
+  }
+  .work div.floating.q1{
+      right: 10%;
+      bottom: 22%;  
+      z-index: 10;  
+      width: 30%;
+  }
+
+}
